@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f7f9" />
+    <title>Azure: Introduction to Microsoft Cloud</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <a class="brand" href="#top" aria-label="Azure course home">
+          <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span>microsoft<br /><strong>azure</strong></span>
+        </a>
+
+        <div class="sidebar-rule"></div>
+        <p class="eyebrow">Your learning path</p>
+        <nav class="course-nav" aria-label="Course chapters">
+          <button class="chapter-link active" data-chapter="0" type="button">
+            <span class="chapter-number">01</span><span class="chapter-label">Introduction to<br />the cloud</span><span class="status-dot current"></span>
+          </button>
+          <button class="chapter-link" data-chapter="1" type="button">
+            <span class="chapter-number">02</span><span class="chapter-label">Introduction to<br />Microsoft Azure</span><span class="status-dot"></span>
+          </button>
+          <button class="chapter-link" data-chapter="2" type="button">
+            <span class="chapter-number">03</span><span class="chapter-label">Management &amp;<br />development tools</span><span class="status-dot"></span>
+          </button>
+          <button class="chapter-link" data-chapter="3" type="button">
+            <span class="chapter-number">04</span><span class="chapter-label">Essential Azure<br />components</span><span class="status-dot"></span>
+          </button>
+          <button class="chapter-link" data-chapter="4" type="button">
+            <span class="chapter-number">05</span><span class="chapter-label">Applications &amp;<br />web pages in Azure</span><span class="status-dot"></span>
+          </button>
+        </nav>
+
+        <div class="sidebar-footer">
+          <div class="progress-heading"><span>Course progress</span><strong id="progress-label">20%</strong></div>
+          <div class="progress-track"><span id="progress-bar"></span></div>
+          <p>1 of 5 chapters complete</p>
+        </div>
+      </aside>
+
+      <main id="top">
+        <header class="topbar">
+          <div class="breadcrumb"><span>Courses</span><i>/</i><strong>Azure fundamentals</strong></div>
+          <div class="topbar-actions">
+            <button class="icon-button" type="button" aria-label="Search" title="Search">⌕</button>
+            <button class="avatar" type="button" aria-label="Open profile">JD</button>
+          </div>
+        </header>
+
+        <section class="hero-section">
+          <div class="hero-copy">
+            <div class="tag"><span class="tag-dot"></span> COURSE / FUNDAMENTALS</div>
+            <p class="course-kicker">AZ-900 · Microsoft Learn</p>
+            <h1>Azure: Introduction<br /><em>to Microsoft Cloud</em></h1>
+            <p class="hero-description">Build a clear foundation in cloud concepts, Azure services, and the tools you need to start building with confidence.</p>
+            <div class="hero-meta"><span><b class="meta-icon">◷</b> 4h 30m</span><span><b class="meta-icon">▦</b> 5 chapters</span><span><b class="meta-icon">◈</b> Beginner</span></div>
+          </div>
+          <div class="hero-art" aria-label="Abstract Azure cloud illustration" role="img">
+            <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+            <div class="cloud-shape"><span class="cloud-cut"></span><span class="cloud-block"></span></div>
+            <div class="art-label art-label-top">01 <span>CONNECT</span></div>
+            <div class="art-label art-label-bottom">CLOUD<br /><strong>01—05</strong></div>
+          </div>
+        </section>
+
+        <section class="content-grid">
+          <div class="lesson-column">
+            <div class="section-heading"><div><p class="eyebrow">Start here</p><h2>Course chapters</h2></div><span class="chapter-count">05 lessons</span></div>
+            <div class="chapter-list" id="chapter-list">
+              <article class="lesson-card selected" data-card="0"><div class="lesson-index">01</div><div class="lesson-body"><p class="lesson-status">CURRENT LESSON</p><h3>Introduction to the cloud</h3><p>Explore cloud concepts, deployment models, and the benefits of cloud computing.</p><div class="lesson-tags"><span>5 lessons</span><span>45 min</span></div></div><button class="lesson-arrow" type="button" aria-label="Open Introduction to the cloud">↗</button></article>
+              <article class="lesson-card" data-card="1"><div class="lesson-index">02</div><div class="lesson-body"><p class="lesson-status">UP NEXT</p><h3>Introduction to Microsoft Azure</h3><p>Discover Azure's core architecture, subscriptions, and global infrastructure.</p><div class="lesson-tags"><span>6 lessons</span><span>50 min</span></div></div><button class="lesson-arrow" type="button" aria-label="Open Introduction to Microsoft Azure">↗</button></article>
+              <article class="lesson-card" data-card="2"><div class="lesson-index">03</div><div class="lesson-body"><p class="lesson-status">CHAPTER 03</p><h3>Essential management and development tools</h3><p>Get hands-on with the Azure portal, CLI, PowerShell, and Cloud Shell.</p><div class="lesson-tags"><span>7 lessons</span><span>55 min</span></div></div><button class="lesson-arrow" type="button" aria-label="Open Essential management and development tools">↗</button></article>
+              <article class="lesson-card" data-card="3"><div class="lesson-index">04</div><div class="lesson-body"><p class="lesson-status">CHAPTER 04</p><h3>Essential Azure components</h3><p>Understand compute, networking, storage, and identity services in Azure.</p><div class="lesson-tags"><span>8 lessons</span><span>1h 10m</span></div></div><button class="lesson-arrow" type="button" aria-label="Open Essential Azure components">↗</button></article>
+              <article class="lesson-card" data-card="4"><div class="lesson-index">05</div><div class="lesson-body"><p class="lesson-status">CHAPTER 05</p><h3>Applications and web pages in Azure</h3><p>Learn how Azure App Service helps you deploy and scale web experiences.</p><div class="lesson-tags"><span>6 lessons</span><span>50 min</span></div></div><button class="lesson-arrow" type="button" aria-label="Open Applications and web pages in Azure">↗</button></article>
+            </div>
+          </div>
+
+          <aside class="right-rail">
+            <div class="next-card">
+              <div class="next-card-top"><p class="eyebrow">Continue learning</p><span class="play-mark">▶</span></div>
+              <p class="next-label">NEXT UP · LESSON 01.02</p>
+              <h2>Cloud concepts and terminology</h2>
+              <p>Learn the language that makes cloud conversations click.</p>
+              <button class="primary-button" id="continue-button" type="button"><span>Continue lesson</span><b>↗</b></button>
+            </div>
+            <div class="quote-card"><div class="quote-mark">“</div><blockquote>Cloud is not a place, it’s a way of doing.</blockquote><div class="quote-line"></div><p>— Microsoft Azure</p></div>
+            <div class="certificate-card"><span class="certificate-icon">✦</span><div><p class="eyebrow">At the finish line</p><h3>Earn your cloud badge</h3><p>Complete the course to unlock your first Azure achievement.</p></div></div>
+          </aside>
+        </section>
+        <footer class="page-footer"><span>MICROSOFT AZURE / LEARNING PATH</span><span>© 2025 Microsoft</span></footer>
+      </main>
+    </div>
+    <div class="toast" id="toast" role="status" aria-live="polite">Lesson ready to begin.</div>
+    <script src="script.js"></script>
+  </body>
+</html>
